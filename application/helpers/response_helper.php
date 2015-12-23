@@ -6,12 +6,13 @@
  * and open the template in the editor.
  */
 
-    class Response{
+    class Response {
         
         var $response = array();
         
-        function Response(){
-            
+        function Response($codigo, $mensaje){
+            $this->response['codigo'] = $codigo;
+            $this->response['mensaje'] = $mensaje;
         }
         
         /**
