@@ -2,8 +2,6 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['base_url'] = "http://3tstmexico.esy.es/shop_register/";
-
 /*
 |--------------------------------------------------------------------------
 | HTTP protocol
@@ -201,7 +199,7 @@ $config['auth_library_function'] = '';
 | Array of usernames and passwords for login, if ldap is configured this is ignored
 |
 */
-$config['rest_valid_logins'] = ['register' => 'Register.10550116'];
+$config['rest_valid_logins'] = ['admin' => '1234'];
 
 /*
 |--------------------------------------------------------------------------
