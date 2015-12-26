@@ -20,7 +20,7 @@ class Login extends REST_Controller {
         
         $user =  $sanador->clean_string( $this->get('usuario') );
         $pass =  $sanador->clean_string( $this->get('pass') );
- 
+
         $response = $this->m_consultas->login($user, $pass);
         
         if($response == FALSE):
